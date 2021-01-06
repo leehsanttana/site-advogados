@@ -11,7 +11,13 @@
 
 <body id="home">
     <nav class="top">
-        <ul class="menu-top">
+        <div class="logo">
+            <h1> <span>LM</span> Advocacia</h1>
+        </div>
+        <button class="btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="menu-top scroll">
             <li><a href="#home">home</a></li>
             <li><a href="#sobre">sobre</a></li>
             <li><a href="#areas">áreas de atuação</a></li>
@@ -20,7 +26,7 @@
         </ul>
     </nav>
     <header class="header">
-        <div>
+        <div class="js-scroll">
             <h1>Lorem ipsum Advogados</h1>
             <p>Ética, confiança e valorização do ser humano.</p>
             <a href="#sobre" class="cta">Conheça</a>
@@ -59,33 +65,33 @@
     <section class="sobre" id="sobre">
         <h2>sobre o escritório</h2>
         <section>
-            <div>
+            <div class="js-scroll-left">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit doloremque modi quos nulla voluptate facilis harum, aliquid at distinctio quia, sequi ipsam perferendis numquam consequatur, itaque recusandae doloribus maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde labore, rem quaerat veniam, dolorum quam iste quo numquam cum vero, in illo! Neque vero perspiciatis architecto nisi veniam ullam tempore.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur suscipit quibusdam sequi recusandae! Dolorem laborum rerum consectetur. Doloremque, quis incidunt expedita corrupti doloribus totam distinctio? Molestias corrupti ea saepe atque.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit doloremque modi quos nulla voluptate facilis harum, aliquid at distinctio quia, sequi ipsam perferendis numquam consequatur, itaque recusandae doloribus maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde labore, rem quaerat veniam, dolorum quam iste quo numquam cum vero, in illo! Neque vero perspiciatis architecto nisi veniam ullam tempore.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur suscipit quibusdam sequi recusandae! Dolorem laborum rerum consectetur. Doloremque, quis incidunt expedita corrupti doloribus totam distinctio? Molestias corrupti ea saepe atque.</p>
                 <a href="#contato" class="cta">Entre em contato</a>
             </div>
-            <div>
+            <div class="js-scroll-top">
                 <img src="img/imagem-escritorio.png" alt="">
             </div>
         </section>
     </section>
 
     <section class="metas">
-        <div class="card-metas">
+        <div class="card-metas js-scroll-top">
             <i class="fas fa-users"></i>
             <h3>MAIS DE</h3>
             <p class="qtd-meta js-numero-c"></p>
             <p>Clientes Satisfeitos</p>
         </div>
-        <div class="card-metas">
+        <div class="card-metas js-scroll-top">
             <i class="fas fa-user-shield"></i>
             <h3>MAIS DE</h3>
             <p class="qtd-meta js-numero-cd"></p>
             <p>casos defendidos</p>
         </div>
-        <div class="card-metas">
+        <div class="card-metas js-scroll-top">
             <i class="fas fa-balance-scale-left"></i>
             <h3>MAIS DE</h3>
             <p class="qtd-meta js-numero-p"></p>
@@ -96,14 +102,14 @@
     <section class="areas" id="areas">
         <h2>Áreas de atuação</h2>
         <section class="areas-section">
-            <nav class="js-tab">
+            <nav class="js-tab js-scroll-left">
                 <ul>
                     <li>Direito Civil</li>
                     <li>Direito Imobiliário</li>
                     <li>Direito do trabalhador</li>
                 </ul>
             </nav>
-            <div class="area js-content">
+            <div class="area js-content js-scroll-top">
                 <section>
                     <div class="area-titulo">
                         <h1>Direito Civil</h1>
@@ -178,28 +184,28 @@
     </section>
 
     <section class="equipe" id="equipe">
-        <h2>Conheça nossa equipe</h2>
+        <h2>Nossa equipe</h2>
         <section>
-            <div class="card-adv">
-                <img src="img/perfil1.png" alt="">
-                <h3>Gabriel Martins</h3>
+            <div class="card-adv js-scroll-top">
+                <img src="img/perfil1.png">
+                <h3>Gabriel Alcantara</h3>
                 <p>ADVOGADO 103.643 OAB/RJ</p>
                 <a href="" class="cta">conheça mais</a>
             </div>
-            <div class="card-adv">
-                <img src="img/perfil2.png" alt="">
+            <div class="card-adv js-scroll-top">
+                <img src="img/perfil2.png">
                 <h3>Humberto Rodrigues</h3>
                 <p>ADVOGADO 157.309 OAB/RJ</p>
                 <a href="" class="cta">conheça mais</a>
             </div>
-            <div class="card-adv">
-                <img src="img/perfil3.png" alt="">
+            <div class="card-adv js-scroll-top">
+                <img src="img/perfil3.png">
                 <h3>Juliana Rapouso</h3>
                 <p>ADVOGADO 157.309 OAB/RJ</p>
                 <a href="" class="cta">conheça mais</a>
             </div>
-            <div class="card-adv">
-                <img src="img/perfil4.png" alt="">
+            <div class="card-adv js-scroll-top">
+                <img src="img/perfil4.png">
                 <h3>Christina Fonseca</h3>
                 <p>ADVOGADO 157.309 OAB/RJ</p>
                 <a href="" class="cta">conheça mais</a>
@@ -212,7 +218,7 @@
         <p>Envie para nós o seu caso, e logo entraremos em contato</p>
 
         <section class="contatos-section">
-            <form action="" class="form-contatos">
+            <form action="" class="form-contatos js-scroll-top">
                 <input class="input-element" type="text" placeholder="nome completo*">
                 <input class="input-element" type="email" placeholder="Email*">
                 <input class="input-element" type="tel" placeholder="Telefone*">
@@ -223,24 +229,24 @@
                     <option value="assunto">Assunto3</option>
                     <option value="assunto">Assunto4</option>
                 </select>
-                <textarea class="input-element textarea-element" id="" cols="30" rows="6" placeholder="Escreva seu texto aqui*"></textarea>
+                <textarea class="input-element textarea-element" id="" rows="6" placeholder="Escreva seu texto aqui*"></textarea>
                 <button type="submit" class="cta"> Enviar </button>
             </form>
-            <div class="info-contatos">
+            <div class="info-contatos js-scroll-left">
                 <h3>Fale conosco também pelo:</h3>
 
                 <ul>
                     <li>
-                        <p><img src="img/whatsapp.png"> <a href="">(21)99999-9999</a></p>
+                        <p><img src="img/icons/whatsapp.png"> <a href="">(21)99999-9999</a></p>
                     </li>
                     <li>
-                        <p><img src="img/phone.png"> (21)99999-9999</p>
+                        <p><img src="img/icons/phone.png"> (21)99999-9999</p>
                     </li>
                     <li>
-                        <p><img src="img/email.png"> email@email.com.br</p>
+                        <p><img src="img/icons/email.png"> email@email.com.br</p>
                     </li>
                     <li>
-                        <p><img src="img/address.png">Av. Dr. Mario Guimarães, 428 - Centro, Nova Iguaçu - RJ, 26255-230</p>
+                        <p><img src="img/icons/address.png">Av. Dr. Mario Guimarães, 428 - Centro, Nova Iguaçu - RJ, 26255-230</p>
                     </li>
                 </ul>
 
@@ -265,7 +271,47 @@
     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.16415841469!2d-43.4578255845718!3d-22.759288385086986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996708b94a1769%3A0x6334305b50b8758a!2sLe%20Monde%20Office%20Life!5e0!3m2!1spt-BR!2sbr!4v1609781628486!5m2!1spt-BR!2sbr" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
     <footer class="footer">
-
+        <div>
+            <h4>Logo da Empresa</h4>
+            <ul>
+                <li>
+                    <p><img src="img/icons/address-mini.png">Av. Dr. Mario Guimarães, 428 - Centro, Nova Iguaçu - RJ, 26255-230</p>
+                </li>
+                <li>
+                    <p><img src="img/icons/whatsapp-mini.png">(21)99999-9999</p>
+                </li>
+                <li>
+                    <p><img src="img/icons/phone-mini.png">(21)99999-9999</p>
+                </li>
+                <li>
+                    <p><img src="img/icons/email-mini.png">email@email.com.br</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>mapa do site</h4>
+            <ul class="scroll">
+                <li><a href="#home">home</a></li>
+                <li><a href="#sobre">sobre</a></li>
+                <li><a href="#areas">áreas de atuação</a></li>
+                <li><a href="#equipe">equipe</a></li>
+                <li><a href="#contatos">contatos</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Redes Sociais:</h4>
+            <ul class="social-list">
+                <li>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/4783fe1c33.js" crossorigin="anonymous"></script>

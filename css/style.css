@@ -778,7 +778,7 @@ textarea {
   }
 
   .top {
-    grid-template-columns: 200px 160px;
+    grid-template-columns: 200px 100px;
   }
 
   .menu-top {

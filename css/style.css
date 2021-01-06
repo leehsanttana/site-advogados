@@ -847,6 +847,12 @@ textarea {
     padding: 60px 60px;
   }
 
+  .header {
+    background: url(../img/bg-header-mobile.png) no-repeat;
+    background-position: center;
+    background-size: initial;
+  }
+
   .header h1 {
     font-size: 4rem;
     max-width: 550px;
@@ -944,6 +950,12 @@ textarea {
   .equipe,
   .contatos {
     padding: 60px 30px;
+  }
+
+  .header {
+    background: url(../img/bg-header-mobile-2.png) no-repeat;
+    background-position: center;
+    background-size: initial;
   }
 
   .header h1 {
